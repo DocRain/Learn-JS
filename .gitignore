@@ -14,6 +14,3 @@ node_modules
 #Файлы ES5
 dist
 public/dist
-
-#package_lock
-package-lock.json
