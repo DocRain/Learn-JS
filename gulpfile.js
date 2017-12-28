@@ -12,7 +12,7 @@ gulp.task('default', function() {
 
 	// исходный код для браузера
 	
-	gulp.src("public/es6/**/*.js')
+	gulp.src("public/es6/**/*.js")
 		.pipe(babel())
 		.pipe(gulp.dest("public/dist"));
 	// Задачи Gulp будут здесь
