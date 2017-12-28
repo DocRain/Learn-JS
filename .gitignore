@@ -10,3 +10,10 @@ node_modules
 #Временные файлы
 *.tmp
 *~
+
+#Файлы ES5
+dist
+public/dist
+
+#package_lock
+package-lock.json

@@ -10,7 +10,7 @@ const sentences = [
 
 function say({ subject, verb, object }) {
 	// средство es6: строки шаблона
-	console.log('${subject} ${verb} ${object}');
+	console.log(`${subject} ${verb} ${object}`);
 }
 
 // средство es6: for..of

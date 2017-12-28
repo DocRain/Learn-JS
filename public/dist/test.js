@@ -11,7 +11,7 @@ function say(_ref) {
 	    object = _ref.object;
 
 	// средство es6: строки шаблона
-	console.log('${subject} ${verb} ${object}');
+	console.log(subject + ' ' + verb + ' ' + object);
 }
 
 // средство es6: for..of
